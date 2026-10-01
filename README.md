@@ -56,25 +56,6 @@ Rcode/
 - `plot_arctan_contour()` - Visualization of bivariate densities
 - Skewness and dependence measure calculations
 
-## Installation
-
-```r
-# Clone the repository
-git clone https://github.com/Sophia-Loizidou/Arctan-skewing.git
-
-# Load functions in R
-source('Rcode/basic_functions.R')
-source('Rcode/mle.R')
-source('Rcode/skewness_dependence_measures.R')
-source('Rcode/symmetry_tests_arctan_skewing.R')
-```
-
-### Dependencies
-
-- `circular` - Circular statistics
-- `Rsolnp` - Non-linear optimization
-- `pracma` - Practical mathematical functions
-
 ## Usage Examples
 
 ### Univariate Sampling and Density
@@ -129,13 +110,6 @@ This work builds upon and references:
 ## License
 
 This project is licensed under the **Attribution 4.0 International (CC-BY-4.0)** license. See [license.md](license.md) for details.
-
-## Author
-
-**Sophia Loizidou**
-
-Department of Mathematics  
-University of Luxembourg
 
 ## Citation
 
