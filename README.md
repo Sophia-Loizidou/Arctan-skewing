@@ -1,6 +1,6 @@
 # Arctan-Skewing: Flexible Skewness for Circular and Toroidal Data
 
-A comprehensive R implementation of the arctan skewing transformation for circular and toroidal distributions. This mechanism enables flexible modeling of skewness in multivariate circular data while maintaining important distributional properties.
+A comprehensive R implementation of the arctan skewing transformation for circular and toroidal distributions proposed in [Ley and Loizidou (2026)](https://arxiv.org/abs/2610.13310). This mechanism enables flexible modeling of skewness in multivariate circular data while maintaining important distributional properties.
 
 ## Overview
 
@@ -113,14 +113,17 @@ This project is licensed under the **Attribution 4.0 International (CC-BY-4.0)**
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you use this code in your research, please cite the accompanying paper:
 
 ```bibtex
-@software{loizidou2026arctan,
-  title={Arctan-Skewing: Flexible Skewness for Circular and Toroidal Data},
-  author={Loizidou, Sophia},
+@article{ley2026arctan,
+  title={Arctan-skewing: a new skewing scheme on the hypertorus},
+  author={Ley, Christophe and Loizidou, Sophia},
   year={2026},
-  url={https://github.com/Sophia-Loizidou/Arctan-skewing}
+  url={https://arxiv.org/abs/2610.13310},
+  eprint={2610.13310},
+  archivePrefix={arXiv},
+  primaryClass={stat.ME}
 }
 ```
 
